@@ -1,0 +1,119 @@
+0
+00:00:00,460 --> 00:00:03,200
+launch the APP and enter the Login page.
+
+1
+00:00:03,360 --> 00:00:05,680
+If you have an account, you can log in directly.
+
+2
+00:00:05,780 --> 00:00:07,270
+If not, you can click on
+
+3
+00:00:07,300 --> 00:00:17,930
+register to sign up. Now, I will focus on our search feature.
+
+4
+00:00:18,090 --> 00:00:20,430
+Not familiar with the search syntex format?
+
+5
+00:00:20,610 --> 00:00:21,030
+No worries.
+
+6
+00:00:21,290 --> 00:00:25,590
+Click on the circular icon. Now let's have a try.
+
+7
+00:00:29,670 --> 00:00:33,390
+As you can see, we have successfully found the desired results.
+
+8
+00:00:33,780 --> 00:00:36,800
+Now let's start test out the filter function.
+
+9
+00:00:37,900 --> 00:00:43,600
+Our filters supports a precise range of selection, various sorting options, 
+
+10
+00:00:43,600 --> 00:00:48,300
+and also utilize the GPS feature to filter nearby restaurants.
+
+11
+00:00:48,520 --> 00:00:51,520
+We have integrated very user friendly operations.
+
+12
+00:00:51,680 --> 00:00:53,700
+You can also choose reset to start over.
+
+13
+00:01:09,150 --> 00:01:16,410
+But clicking on a filtered restaurant, we can feel detailed restaurant information and read the comments below.
+
+14
+00:01:16,570 --> 00:01:30,530
+You can also leave a comment on this page by clicking on the statistic button.
+
+15
+00:01:30,690 --> 00:01:36,310
+Users enter the data analysis interface, here we have four graphs.
+
+16
+00:01:39,910 --> 00:01:42,830
+Next, let's move to the P2P section.
+
+17
+00:01:42,900 --> 00:01:47,400
+Here, you can search for a friend's account in the search box 
+
+18
+00:01:47,400 --> 00:01:52,200
+or directly select previous chat histories to start a conversation.
+
+19
+00:01:52,430 --> 00:02:02,260
+Let's chat!  Now, let's switch to another phone account
+
+20
+00:02:04,460 --> 00:02:07,540
+We have successfully received the message.
+
+21
+00:02:12,100 --> 00:02:17,500
+Now, looking at the sidebar, from top to button, we have the location displayed by 
+
+22
+00:02:17,500 --> 00:02:21,300
+GPS, a user profile, pictures, and an editable user name.
+
+23
+00:02:23,590 --> 00:02:27,210
+Next, let's explore the egg's comment history.
+
+24
+00:02:27,370 --> 00:02:37,760
+We can see our newly added comment here, you can click logout to sign out.
+
+25
+00:02:39,600 --> 00:02:44,300
+We implement a simulator to load three kinds of simulation data 
+
+26
+00:02:44,300 --> 00:02:46,800
+from file based every time seconds
+
+27
+00:02:46,800 --> 00:02:50,900
+including surge key words, written data and PTP messages.
+
+28
+00:02:51,180 --> 00:02:55,960
+The app will automatically update the database and visualize the results.
+
+29
+00:02:56,720 --> 00:02:58,560
+That's all. Thank you.

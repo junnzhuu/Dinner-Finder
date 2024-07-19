@@ -1,0 +1,26 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Base image -->
+    <item>
+        <bitmap android:src="@drawable/homepage" />
+    </item>
+
+    <!-- Gradient overlay at the top -->
+    <item android:bottom="5dp">
+        <shape>
+            <gradient
+                android:startColor="#B08692f7"
+                android:endColor="@android:color/transparent"
+                android:angle="270" />
+        </shape>
+    </item>
+
+    <!-- Gradient overlay at the bottom -->
+    <item android:top="5dp">
+        <shape>
+            <gradient
+                android:startColor="@android:color/transparent"
+                android:endColor="#808692F7"
+                android:angle="270" />
+        </shape>
+    </item>
+</layer-list>

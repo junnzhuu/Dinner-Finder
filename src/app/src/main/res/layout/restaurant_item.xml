@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/selectableItemBackground"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:onClick="onRestaurantItemClick">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="#757575"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/image"
+        android:layout_marginStart="8dp"
+        android:layout_toEndOf="@+id/image"
+        android:ellipsize="end"
+        android:maxLines="1"
+        tools:text="Foo's Bar" />
+
+    <TextView
+        android:id="@+id/ratingCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/title"
+        android:layout_alignTop="@+id/title"
+        android:layout_marginStart="4dp"
+        android:layout_toEndOf="@+id/title"
+        android:gravity="center_vertical"
+        tools:text="(10)" />
+
+    <TextView
+        android:id="@+id/type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/title"
+        android:layout_below="@+id/title"
+        tools:text="Italian" />
+
+    <TextView
+        android:id="@+id/metropolis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/type"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="0dp"
+        android:layout_toEndOf="@+id/type"
+        tools:text="San Francisco" />
+
+    <TextView
+        android:id="@+id/cost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        tools:text="$$$" />
+
+    <TextView
+        android:id="@+id/meanRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/title"
+        android:layout_below="@+id/type"
+        android:layout_marginTop="4dp" />
+
+</RelativeLayout>

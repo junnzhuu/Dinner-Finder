@@ -1,0 +1,9 @@
+<resources>
+    <string name="question_button_description">Use these symbols to search:\n
+         @ for city\n
+         # for restaurant name\n
+         $ for cost\n
+         ! for rating\n
+         / for category\n\n
+        Operators: ==, &lt;, &gt;.\n Queries are comma-separated.\n\nExample:\n1. @ == "New York", $ &lt; 20\n2. ! &gt; 4.5, / == Italian</string>
+</resources>

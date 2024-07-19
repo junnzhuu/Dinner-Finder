@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Home/Main Activity -->
+    <item
+        android:id="@+id/bottom_home"
+        android:icon="@drawable/bottom_menu_home"
+        android:title="Home"/>
+
+    <!-- P2P Chat Activity -->
+    <item
+        android:id="@+id/bottom_chat"
+        android:icon="@drawable/bottom_menu_chat"
+        android:title="Chat"/>
+
+    <!-- Add more items as needed -->
+
+</menu>

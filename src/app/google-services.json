@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1094284787468",
+    "project_id": "gourmet-restaurant-search",
+    "storage_bucket": "gourmet-restaurant-search.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1094284787468:android:015690e7c0bbdf66e45329",
+        "android_client_info": {
+          "package_name": "G26.Project"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNT3X3bECJzAT6EkWYjyDqZbDJxErpi-w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
